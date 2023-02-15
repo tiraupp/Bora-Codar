@@ -35,7 +35,7 @@ O Bora Codar é um projeto ministrado pelo professor [Mayk Brito](https://github
 
 Projeto 05 - Calculadora.
 
-- [Acesse o projeto finalizado, online](https://tiraupp.github.io/BoraCodar/)
+- [Acesse o projeto finalizado, online](https://tiraupp.github.io/Bora-Codar/)
 
 ## 🔖 Layout
 
