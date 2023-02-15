@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Rubik&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="calculator">
+    <div id="display">
+      <div id="last-calc">0</div>
+      <div id="result">
+        <img src="./assets/equals.svg" alt="simbolo de igual">
+        <span id="result-display">0</span>
+      </div>
+    </div>
+    <div id="keyboard">
+       <button id="ce" onclick="ce()" class="secondary">CE</button> 
+       <button id="c" onclick="back()">C</button>
+       <button id="percent" onclick="percent()"> <img src="./assets/percent.svg" alt="simbolo de percentual"></button>
+       <button id="divide" onclick="insert('/')" class="tertiary"><img src="./assets/divide.svg" alt="simbolo de divisão"></button>
+       <button id="seven" onclick="insert('7')">7</button>
+       <button id="eight" onclick="insert('8')">8</button>
+       <button id="nine" onclick="insert('9')">9</button>
+       <button id="multiple" onclick="insert('*')" class="tertiary"><img src="./assets/multiple.svg" alt="simbolo de multiplicação"></button>
+       <button id="four" onclick="insert('4')">4</button>
+       <button id="five" onclick="insert('5')">5</button>
+       <button id="six" onclick="insert('6')">6</button>
+       <button id="minus" onclick="insert('-')" class="tertiary"><img src="./assets/minus.svg" alt="simbolo de menos"></button>
+       <button id="three" onclick="insert('3')">3</button>
+       <button id="two" onclick="insert('2')">2</button>
+       <button id="one" onclick="insert('1')">1</button>
+       <button id="plus" onclick="insert('+')" class="tertiary"><img src="./assets/plus.svg" alt="simbolo de mais"></button>
+       <button id="plusminus" onclick="invert()"><img src="./assets/plusminus.svg" alt="simbolo de mais e menos"></button>
+       <button id="zero" onclick="insert('0')">0</button>
+       <button id="comma"onclick="insert('.')">,</button>
+       <button id="buttonResult" onclick="result()" class="quartiary"><img src="./assets/result.svg" alt="simbolo de igual"></button>
+    </div>
+  </div>
+  <script src="./script.js"></script>
+</body>
+</html>
